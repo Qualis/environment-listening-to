@@ -1,0 +1,15 @@
+---
+- hosts: all
+
+  tasks:
+
+    - include: ../environment-core/provisioning/core.yml
+    - include: ../environment-clojure/provisioning/clojure.yml
+    - include: ../environment-apache/provisioning/apache.yml
+    - include: ../environment-postgresql/provisioning/postgresql.yml
+    - include: listening-to.yml
+
+  handlers:
+
+    - include: ../environment-postgresql/provisioning/postgresql-handler.yml
+    - include: ../environment-apache/provisioning/apache-handler.yml
