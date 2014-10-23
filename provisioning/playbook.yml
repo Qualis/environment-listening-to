@@ -13,3 +13,4 @@
 
     - include: ../environment-postgresql/provisioning/postgresql-handler.yml
     - include: ../environment-apache/provisioning/apache-handler.yml
+    - include: listening-to-handler.yml
