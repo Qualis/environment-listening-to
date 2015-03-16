@@ -1,0 +1,12 @@
+---
+- hosts: all
+
+  roles:
+
+    - environment-core
+    - environment-clojure
+    - environment-apache
+    - environment-postgresql
+    - environment-selenium
+    - ../environment-listening-to
+

@@ -10,3 +10,6 @@
 [submodule "environment-apache"]
 	path = environment-apache
 	url = https://github.com/Qualis/environment-apache.git
+[submodule "environment-selenium"]
+	path = environment-selenium
+	url = https://github.com/Qualis/environment-selenium
